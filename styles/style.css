@@ -1,0 +1,22 @@
+@import url("./header.css");
+@import url("./banner.css");
+
+:root {
+  --bg: #EBECEE;
+  --white: #FFFFFF;
+  --orange: #EB9B00;
+  --secondary-blue: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+  --primary-blue: #002F52;
+  --black: #000000;
+  --primary-gray: #474646;
+  --secondary-gray: #858585;
+  --primary-font: "Poppins";
+  --secondary-font: "Josefin Sans";
+}
+
+body {
+  background-color: var(--bg);
+  font-family: var(--primary-font);
+  font-size: 16px;
+  font-weight: 400;
+}
